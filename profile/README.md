@@ -4,6 +4,8 @@ Independent work in AI evaluation, provenance, agent workflows, and generated me
 
 ## Public repositories
 
+- [Bounded JSON Input](https://github.com/HMIC-LLC/bounded-json-input) is a standard-library Python boundary for untrusted JSON. It rejects duplicate keys, invalid encoding, non-finite values, and inputs beyond configured limits. Includes tests and a [versioned release](https://github.com/HMIC-LLC/bounded-json-input/releases/tag/v1.0.0).
+- [Process Haltere](https://github.com/HMIC-LLC/process-haltere) calculates no-progress warning thresholds for batch work. It makes no claim that a process is actually running. Includes tests and a [versioned release](https://github.com/HMIC-LLC/process-haltere/releases/tag/v1.0.0).
 - [ALCOA RubberStamp](https://github.com/HMIC-LLC/alcoa-rubberstamp) is a Python reference tool for making and verifying deterministic file-set commitments. It includes tests and a fixed example. It does not certify a record's truth or provide regulatory validation.
 - [Programmed Interface Compression](https://github.com/HMIC-LLC/programmed-interface-compression) contains a locked definition, recognition criteria, examples, and citation information. Its publication does not imply a reuse license.
 
