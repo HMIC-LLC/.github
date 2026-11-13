@@ -4,6 +4,8 @@ Independent work in AI evaluation, provenance, agent workflows, and generated me
 
 ## Public repositories
 
+- [Receipt Matrix](https://github.com/HMIC-LLC/receipt-matrix) records exact experiment inputs and receipts, validates an append-only ledger, and compares runs with missing or changed controls called out. Includes fictional examples, tests, and a [versioned release](https://github.com/HMIC-LLC/receipt-matrix/releases/tag/v1.0.0).
+- [Tool Call Dialect Lab](https://github.com/HMIC-LLC/tool-call-dialect-lab) checks how tagged, standard, and lenient parsers interpret saved tool-call replies. Synthetic cases show both parser misses and false positives. Includes tests and a [versioned release](https://github.com/HMIC-LLC/tool-call-dialect-lab/releases/tag/v1.0.0).
 - [Bounded JSON Input](https://github.com/HMIC-LLC/bounded-json-input) is a standard-library Python boundary for untrusted JSON. It rejects duplicate keys, invalid encoding, non-finite values, and inputs beyond configured limits. Includes tests and a [versioned release](https://github.com/HMIC-LLC/bounded-json-input/releases/tag/v1.0.0).
 - [Process Haltere](https://github.com/HMIC-LLC/process-haltere) calculates no-progress warning thresholds for batch work. It makes no claim that a process is actually running. Includes tests and a [versioned release](https://github.com/HMIC-LLC/process-haltere/releases/tag/v1.0.0).
 - [ALCOA RubberStamp](https://github.com/HMIC-LLC/alcoa-rubberstamp) is a Python reference tool for making and verifying deterministic file-set commitments. It includes tests and a fixed example. It does not certify a record's truth or provide regulatory validation.
